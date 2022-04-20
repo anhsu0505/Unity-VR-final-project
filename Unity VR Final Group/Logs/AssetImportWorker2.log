@@ -334,3 +334,216 @@ Received Import Request.
   path: Assets/Assets/中式场景
   artifactKey: Guid(9a7634b428f764a51b0db640609e1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Assets/中式场景 using Guid(9a7634b428f764a51b0db640609e1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14cf3dfba031fdde46a58559b72b90') in 0.007099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 600.823259 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0491231e6c4c25eebb90ca24e6ce01') in 0.041792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 723.216035 seconds.
+  path: Assets/Assets/中式场景/LanternSet
+  artifactKey: Guid(80300b44432594901b63d9c9eb8e284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式场景/LanternSet using Guid(80300b44432594901b63d9c9eb8e284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2d3aabcff8fb60eb8793baec775581') in 0.002972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.395728 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs
+  artifactKey: Guid(f263b54b9f1b23046a8c9e1e6768dd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs using Guid(f263b54b9f1b23046a8c9e1e6768dd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d031453ae4d5d29dd833a895cb0f48') in 0.001917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129637 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Antique book.prefab
+  artifactKey: Guid(a657764521f11ac448f0fc38df6fbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Antique book.prefab using Guid(a657764521f11ac448f0fc38df6fbbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '91cd84bea259fd414e8f177efd1e3d33') in 0.727201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Folding screen.prefab
+  artifactKey: Guid(b9c71d54aa48de147977cc76297809af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Folding screen.prefab using Guid(b9c71d54aa48de147977cc76297809af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '42896afcbcb6c8d9b52ce5898cbefefc') in 0.068590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 2.prefab
+  artifactKey: Guid(62bf8c4d48e685a45a109da4b0b51ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 2.prefab using Guid(62bf8c4d48e685a45a109da4b0b51ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd5862a53b87e1317de5190a1972a91f8') in 0.042913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Stool.prefab
+  artifactKey: Guid(5ceddc36b975a7e4d8878125146c12bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Stool.prefab using Guid(5ceddc36b975a7e4d8878125146c12bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '331233e7f240f65edacb15d91758faab') in 0.059395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling.prefab
+  artifactKey: Guid(442900c246f19584a9922975575a4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling.prefab using Guid(442900c246f19584a9922975575a4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '4c99b316e6d4438185c5c944638503ff') in 0.055155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Branch.prefab
+  artifactKey: Guid(6e6a5b5abe778cc43906455364228eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Branch.prefab using Guid(6e6a5b5abe778cc43906455364228eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8de618217b1d5b8ab73b73bf560e4239') in 0.051785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa seating.prefab
+  artifactKey: Guid(175d0ae774a1eaf43b69da47a42f7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa seating.prefab using Guid(175d0ae774a1eaf43b69da47a42f7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7d28c1ed2b8e2884911f8516f7c2ec37') in 0.041591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 1.prefab
+  artifactKey: Guid(c554bedb8fe45974fa59f084e5b168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 1.prefab using Guid(c554bedb8fe45974fa59f084e5b168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f8cc1620f1c97ba8de1e992c494c4eb6') in 0.028790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling lamp.prefab
+  artifactKey: Guid(9f779433aab4820409525c2793dcc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling lamp.prefab using Guid(9f779433aab4820409525c2793dcc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '532de35758d6b70c3d2c09be721a4398') in 0.070514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Chair 1.prefab
+  artifactKey: Guid(e20674cd9707c1043a8aff9e491d25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Chair 1.prefab using Guid(e20674cd9707c1043a8aff9e491d25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '81c0b2c0342a2653c069368a4cf71ecb') in 0.040632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 1.prefab
+  artifactKey: Guid(d335ce1a203f9ba499da93df94bd8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 1.prefab using Guid(d335ce1a203f9ba499da93df94bd8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cee530278cd642d857f0f89b6d9a6e9a') in 0.047281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 1.prefab
+  artifactKey: Guid(d408cbc28f009d643938f594b2eb39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 1.prefab using Guid(d408cbc28f009d643938f594b2eb39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5f9742616eb1eb33c1779383db5b5e35') in 0.022061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab
+  artifactKey: Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab using Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '05275088aa80a624cd19038beddda17d') in 0.066336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Table 2.prefab
+  artifactKey: Guid(26abb0a59ea16fa46a3c22b5b32eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Table 2.prefab using Guid(26abb0a59ea16fa46a3c22b5b32eb918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'be67b84c6d40fd455b8cf17be1dd1bac') in 0.043489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall lamp.prefab
+  artifactKey: Guid(3ec7b9c41481a37469a96a6a3e813d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall lamp.prefab using Guid(3ec7b9c41481a37469a96a6a3e813d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa230f8bc5e74235453dae754b8f187') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 3.prefab
+  artifactKey: Guid(7e9ec8d772e5ce14087eb164b377c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 3.prefab using Guid(7e9ec8d772e5ce14087eb164b377c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd626a84f7abc8cd04d7a62cf4b18d708') in 0.164313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 3.prefab
+  artifactKey: Guid(a5809b9fbb326cf4fb0c486c1da2b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 3.prefab using Guid(a5809b9fbb326cf4fb0c486c1da2b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f21ea101494dcb51696fd296d9ba0ff0') in 0.047927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Chopsticks.prefab
+  artifactKey: Guid(d955b90f213fdd64ebfc1161ca598d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Chopsticks.prefab using Guid(d955b90f213fdd64ebfc1161ca598d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2b4b5f928f9863ddfacdbfe7173e28fc') in 0.019055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Small table.prefab
+  artifactKey: Guid(7144cc4cf54937e499750702d9c97401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Small table.prefab using Guid(7144cc4cf54937e499750702d9c97401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3048fd397b969637aa74ec7267b1a243') in 0.045699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Tv.prefab
+  artifactKey: Guid(072046ab5268baf4d9a37a663a94ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Tv.prefab using Guid(072046ab5268baf4d9a37a663a94ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0d08847987bdaa119e5c04369ee00872') in 0.031694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Switch.prefab
+  artifactKey: Guid(198d4b37a4658be4fa7753e5708d8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Switch.prefab using Guid(198d4b37a4658be4fa7753e5708d8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0d98b439d408a71b55c95a369982b80e') in 0.019925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Tea table.prefab
+  artifactKey: Guid(1d2935fb5bf1464468024fbbf8fb84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Tea table.prefab using Guid(1d2935fb5bf1464468024fbbf8fb84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '90c18903f451a364d3982495e66bb5d8') in 0.030264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab
+  artifactKey: Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab using Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd9de8c5c8f321dfd2dca785db6ce1c5e') in 0.019404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 2.prefab
+  artifactKey: Guid(e741b1551e184d64aaee1a62ead75382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 2.prefab using Guid(e741b1551e184d64aaee1a62ead75382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b3a064cf88020d7bf8cbecfecd2b7a65') in 0.020364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Books 1.prefab
+  artifactKey: Guid(a34053fdd32950e44b8a3b99e7d1b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Books 1.prefab using Guid(a34053fdd32950e44b8a3b99e7d1b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0da4c387d6f15ed739df73796c61ae75') in 0.018449 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
