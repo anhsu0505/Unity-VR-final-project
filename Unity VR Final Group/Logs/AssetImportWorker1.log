@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53565
+59240
 Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 134.47 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 4.04 ms.
+Refreshing native plugins compatible for Editor in 146.95 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 5.28 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Assets
@@ -69,268 +69,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56654
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001376 seconds.
+Registered in 0.003809 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.13 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
+Refreshing native plugins compatible for Editor in 106.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
+- Completed reload, in  0.884 seconds
 Domain Reload Profiling:
-	ReloadAssembly (725ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (564ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004424 seconds.
+Registered in 0.013738 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 142.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 118.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  5.706 seconds
+- Completed reload, in  2.120 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5707ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (2120ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (5442ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1849ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
+			SetupTypeCache (465ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (4677ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1092ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (4307ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (739ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Unloading 5650 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.8 MB). Loaded Objects now: 6074.
-Memory consumption went from 361.8 MB to 361.0 MB.
-Total: 7.130171 ms (FindLiveObjects: 0.606856 ms CreateObjectMapping: 0.408378 ms MarkObjects: 5.699912 ms  DeleteObjects: 0.414197 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005039 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (190ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (545ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(6) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Unloading 5496 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (0.8 MB). Loaded Objects now: 6077.
-Memory consumption went from 354.0 MB to 353.2 MB.
-Total: 5.279620 ms (FindLiveObjects: 0.555474 ms CreateObjectMapping: 0.563856 ms MarkObjects: 3.686105 ms  DeleteObjects: 0.473554 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004589 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.509 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1509ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1247ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (703ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (498ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(6) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.37 ms.
-Unloading 5497 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (0.8 MB). Loaded Objects now: 6081.
-Memory consumption went from 354.5 MB to 353.7 MB.
-Total: 5.336930 ms (FindLiveObjects: 0.540095 ms CreateObjectMapping: 0.560257 ms MarkObjects: 3.828645 ms  DeleteObjects: 0.407265 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004376 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1378ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1138ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (571ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (411ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(6) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 5497 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (0.8 MB). Loaded Objects now: 6084.
-Memory consumption went from 354.8 MB to 354.0 MB.
-Total: 4.660089 ms (FindLiveObjects: 0.527854 ms CreateObjectMapping: 0.460647 ms MarkObjects: 3.302780 ms  DeleteObjects: 0.368065 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.1 MB). Loaded Objects now: 6092.
+Memory consumption went from 365.9 MB to 364.8 MB.
+Total: 6.168893 ms (FindLiveObjects: 0.428065 ms CreateObjectMapping: 0.438585 ms MarkObjects: 4.608768 ms  DeleteObjects: 0.692447 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -344,42 +170,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 749931.394099 seconds.
-  path: Assets/XR/Settings/OpenXR Package Settings.asset
-  artifactKey: Guid(6e9db871aacd44d04b356e70ffc20d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(6e9db871aacd44d04b356e70ffc20d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1742d92530fdc1e572f97a17ebfa99') in 0.368848 seconds 
+  Time since last request: 816171.826835 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Folding screen.prefab
+  artifactKey: Guid(b9c71d54aa48de147977cc76297809af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Folding screen.prefab using Guid(b9c71d54aa48de147977cc76297809af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be119eea8275eb83fe8cfa68635c20f5') in 0.718209 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/中式家具/Chinese Room/Models/Materials/symbol color.mat
-  artifactKey: Guid(ea500953634484a43af13d02b920f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/中式家具/Chinese Room/Models/Materials/symbol color.mat using Guid(ea500953634484a43af13d02b920f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a298ec494126b9415278c1a4a0bdf41f') in 0.520651 seconds 
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Cabinet.prefab
+  artifactKey: Guid(6fc329aa492f62441af7dbc2f50c6fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Cabinet.prefab using Guid(6fc329aa492f62441af7dbc2f50c6fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d05089449f35f50939bc6acdc754baf') in 0.019705 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Assets/中式家具/Chinese Room/Skyboxes/Textures/Sunny1/Sunny1_down.tif
-  artifactKey: Guid(b3a85a331cc51794c872ec8f1aa1599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/中式家具/Chinese Room/Skyboxes/Textures/Sunny1/Sunny1_down.tif using Guid(b3a85a331cc51794c872ec8f1aa1599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fc5876bddb22fa9f4f14aa5cb80d90') in 0.363621 seconds 
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Table 1.prefab
+  artifactKey: Guid(4b6b8b67796ff8b4cac46d9fcebc724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Table 1.prefab using Guid(4b6b8b67796ff8b4cac46d9fcebc724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10a433e19972f73424f19f14e3afe78') in 2.542673 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Assets/中式家具/Chinese Room/Skyboxes/Textures/Sunny1/Sunny1_up.tif
-  artifactKey: Guid(b7322b81e2e556b4ca6ace10c52d9777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/中式家具/Chinese Room/Skyboxes/Textures/Sunny1/Sunny1_up.tif using Guid(b7322b81e2e556b4ca6ace10c52d9777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa6b7a01d1473423bfc88e4049af614') in 0.015407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Assets/中式家具/Chinese Room/Skyboxes/Sunny1 Skybox.mat
-  artifactKey: Guid(33933fd3d3936684690e1a042c03737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/中式家具/Chinese Room/Skyboxes/Sunny1 Skybox.mat using Guid(33933fd3d3936684690e1a042c03737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0563fdc18f5495d0afc3172773637d') in 0.434229 seconds 
+  Time since last request: 0.000102 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 1.prefab
+  artifactKey: Guid(c554bedb8fe45974fa59f084e5b168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 1.prefab using Guid(c554bedb8fe45974fa59f084e5b168ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb0798f9bada80e15fd52ecf45e6127') in 0.032491 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000107 seconds.
-  path: Assets/Assets/中式家具/Chinese Room/Textures/symbol color.png
-  artifactKey: Guid(5e434bccefffb7243812d2fbe1df3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/中式家具/Chinese Room/Textures/symbol color.png using Guid(5e434bccefffb7243812d2fbe1df3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b01dfc96180663589b3e73e38581f5d5') in 0.289972 seconds 
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling lamp.prefab
+  artifactKey: Guid(9f779433aab4820409525c2793dcc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling lamp.prefab using Guid(9f779433aab4820409525c2793dcc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a4a8a70679fc20c8d08d3c5170bdf1') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Door 1.prefab
+  artifactKey: Guid(53ff8f34b29748a43b460c550ef41e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Door 1.prefab using Guid(53ff8f34b29748a43b460c550ef41e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b861f31d851e2a07b39e88c1c1d73b2') in 0.026395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Symbol.prefab
+  artifactKey: Guid(f89efc7866b4bcb4283be0920602e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Symbol.prefab using Guid(f89efc7866b4bcb4283be0920602e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebc9824526742763cb8da2235357f93') in 0.019363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab
+  artifactKey: Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab using Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3300166324d42a5862439ea1d73fbeb') in 0.025669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa.prefab
+  artifactKey: Guid(23a48ae366c612248b6915e5a26bcc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa.prefab using Guid(23a48ae366c612248b6915e5a26bcc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f662397e4a725b6ab755b0d2f36412e') in 2.361250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 3.prefab
+  artifactKey: Guid(544423cfea05d1d4fa3d2b4cf3c4236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 3.prefab using Guid(544423cfea05d1d4fa3d2b4cf3c4236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e90a8395086a695a585861f77108fa') in 0.016657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 2.prefab
+  artifactKey: Guid(93d5d69048377944ab620f4b34a36fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 2.prefab using Guid(93d5d69048377944ab620f4b34a36fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41a588c6112995a9dc274b61ae3a4ff') in 0.022980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Glasses.prefab
+  artifactKey: Guid(bf6ab3ebb6b10734aa2277f11630efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Glasses.prefab using Guid(bf6ab3ebb6b10734aa2277f11630efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eec45dc43caaf17c9f1a3b387184366') in 0.069290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 4.prefab
+  artifactKey: Guid(6b1142fae6d2bca4aabce9cfd7721424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 4.prefab using Guid(6b1142fae6d2bca4aabce9cfd7721424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcec1c606a4a023be4ede18ce7590dc') in 0.016022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab
+  artifactKey: Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab using Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5326497d7a1d2f94b56a94c8c212cce') in 0.012621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 2.prefab
+  artifactKey: Guid(e741b1551e184d64aaee1a62ead75382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Wall 2.prefab using Guid(e741b1551e184d64aaee1a62ead75382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4097d06616aa85e3e03acddd67c89fd') in 0.015882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Books 1.prefab
+  artifactKey: Guid(a34053fdd32950e44b8a3b99e7d1b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Books 1.prefab using Guid(a34053fdd32950e44b8a3b99e7d1b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5535a5e6072b70a184ba81f0b6a38109') in 0.011350 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
