@@ -137,6 +137,11 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: ba282d8b254ca4b68bbfda8bc35bbe53, type: 2}
+  - {fileID: 5629606587417122476, guid: 45ff0c606d68d4330a47ff6f76bff16a, type: 2}
   - {fileID: -8052418717312994232, guid: 6e9db871aacd44d04b356e70ffc20d24, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -846,6 +851,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
