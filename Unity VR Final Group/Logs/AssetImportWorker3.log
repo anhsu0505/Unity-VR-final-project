@@ -1,0 +1,757 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.19f1 (602ecdbb2fb0) revision 6303437'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16045 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.2.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/zchen/Documents/GitHub/Unity-VR-final-project/Unity VR Final Group
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57537
+Successfully changed project path to: C:/Users/zchen/Documents/GitHub/Unity-VR-final-project/Unity VR Final Group
+C:/Users/zchen/Documents/GitHub/Unity-VR-final-project/Unity VR Final Group
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 213.67 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 4.60 ms.
+Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zchen/Documents/GitHub/Unity-VR-final-project/Unity VR Final Group/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1215
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.2.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025143 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 307.96 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1012ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (642ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (145ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (308ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028166 seconds.
+Android Extension - Scanning For ADB Devices 803 ms
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 131.31 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.70.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1734ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1450ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 6633 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (0.5 MB). Loaded Objects now: 7052.
+Memory consumption went from 274.4 MB to 273.9 MB.
+Total: 3.998100 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.374800 ms MarkObjects: 2.731800 ms  DeleteObjects: 0.304900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6402 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (487.0 KB). Loaded Objects now: 7056.
+Memory consumption went from 257.4 MB to 257.0 MB.
+Total: 3.361600 ms (FindLiveObjects: 0.449400 ms CreateObjectMapping: 0.251700 ms MarkObjects: 2.385000 ms  DeleteObjects: 0.274500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25171.560812 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands/GrabConeVolume.asset
+  artifactKey: Guid(687d21fc72e51324cbb1c3078c72718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands/GrabConeVolume.asset using Guid(687d21fc72e51324cbb1c3078c72718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82588280d9b758d2e4b81da52a18614a') in 0.102835 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.78 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (486.9 KB). Loaded Objects now: 7070.
+Memory consumption went from 261.8 MB to 261.3 MB.
+Total: 3.652500 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.297000 ms MarkObjects: 2.555300 ms  DeleteObjects: 0.305800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 12.73 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1393ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.64 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (479.3 KB). Loaded Objects now: 7074.
+Memory consumption went from 261.8 MB to 261.3 MB.
+Total: 3.803000 ms (FindLiveObjects: 0.584600 ms CreateObjectMapping: 0.372400 ms MarkObjects: 2.526700 ms  DeleteObjects: 0.318000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1281ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.39 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (487.1 KB). Loaded Objects now: 7078.
+Memory consumption went from 261.8 MB to 261.3 MB.
+Total: 5.397500 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.520500 ms MarkObjects: 3.691400 ms  DeleteObjects: 0.512800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1571ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.72 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (487.5 KB). Loaded Objects now: 7082.
+Memory consumption went from 261.8 MB to 261.3 MB.
+Total: 4.259600 ms (FindLiveObjects: 0.665400 ms CreateObjectMapping: 0.533500 ms MarkObjects: 2.633000 ms  DeleteObjects: 0.426700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1200.996720 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Bamboo.prefab
+  artifactKey: Guid(ca08ffdfe9cf25743bd9817199aeabc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Bamboo.prefab using Guid(ca08ffdfe9cf25743bd9817199aeabc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a570b62d60ebba0e26a7576399ab46d9') in 0.354495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Picture 2.prefab
+  artifactKey: Guid(c8f3535e466e5634582a331a782bbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Picture 2.prefab using Guid(c8f3535e466e5634582a331a782bbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2884230f525ae9923f4d8cf8b48cadce') in 0.047316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Stool.prefab
+  artifactKey: Guid(5ceddc36b975a7e4d8878125146c12bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Stool.prefab using Guid(5ceddc36b975a7e4d8878125146c12bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aac64edc74401cd469ed5245b31e3df') in 0.060906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling.prefab
+  artifactKey: Guid(442900c246f19584a9922975575a4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Ceiling.prefab using Guid(442900c246f19584a9922975575a4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c81c8fc0b522f4daa3ed99f292d89c6') in 0.055194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Window.prefab
+  artifactKey: Guid(7f4791aa95ca2df4ca917b095637dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Window.prefab using Guid(7f4791aa95ca2df4ca917b095637dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdc507f8e6125aa49e4b44f58fbf627') in 0.069641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa seating.prefab
+  artifactKey: Guid(175d0ae774a1eaf43b69da47a42f7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Sofa seating.prefab using Guid(175d0ae774a1eaf43b69da47a42f7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0663d3d22ebed836f33e67276515088a') in 0.079529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Floor.prefab
+  artifactKey: Guid(48e5780a89f4ed049b3eaf2a0ca51436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Floor.prefab using Guid(48e5780a89f4ed049b3eaf2a0ca51436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5f53924d427002fcc98c3f8ed748fe') in 0.148736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Door 1.prefab
+  artifactKey: Guid(53ff8f34b29748a43b460c550ef41e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Door 1.prefab using Guid(53ff8f34b29748a43b460c550ef41e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b5af8deaabd5b9b07e19867cedf1a') in 0.077594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Symbol.prefab
+  artifactKey: Guid(f89efc7866b4bcb4283be0920602e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Symbol.prefab using Guid(f89efc7866b4bcb4283be0920602e4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14d1444d32dceeef9ecb578af77c8a') in 0.067751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 1.prefab
+  artifactKey: Guid(d408cbc28f009d643938f594b2eb39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 1.prefab using Guid(d408cbc28f009d643938f594b2eb39df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50efe5bf7a95e32d26950c86b1883e0') in 0.048107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab
+  artifactKey: Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Partition wall.prefab using Guid(12816af76060bf74d8e108ae5052dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccef26e6fcb19dd6c5205d9af3b917a0') in 0.120043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Tablecloth.prefab
+  artifactKey: Guid(cf7cf977f0dcf4e4cac85ab1c13c5757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Tablecloth.prefab using Guid(cf7cf977f0dcf4e4cac85ab1c13c5757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c0b084c123c712d997c37dd220e6e6') in 0.069640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 3.prefab
+  artifactKey: Guid(7e9ec8d772e5ce14087eb164b377c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Plant 3.prefab using Guid(7e9ec8d772e5ce14087eb164b377c7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394fccd261fe08fa01c5746ba965104c') in 0.071388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Carpet.prefab
+  artifactKey: Guid(71643a152cb2c184486a0c2c827979c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Carpet.prefab using Guid(71643a152cb2c184486a0c2c827979c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7738a20a89eeb5ca86104187b388144d') in 0.079272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 3.prefab
+  artifactKey: Guid(a5809b9fbb326cf4fb0c486c1da2b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 3.prefab using Guid(a5809b9fbb326cf4fb0c486c1da2b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2971fbeed75ef75142cb0c1f295d4605') in 0.049174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Chopsticks.prefab
+  artifactKey: Guid(d955b90f213fdd64ebfc1161ca598d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Chopsticks.prefab using Guid(d955b90f213fdd64ebfc1161ca598d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c5cb9a3ca2ce31b2c3e9290985043a') in 0.038971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Glasses.prefab
+  artifactKey: Guid(bf6ab3ebb6b10734aa2277f11630efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Glasses.prefab using Guid(bf6ab3ebb6b10734aa2277f11630efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b54234fe15b27886e92576f4afc6b3') in 0.038855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Small table.prefab
+  artifactKey: Guid(7144cc4cf54937e499750702d9c97401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Small table.prefab using Guid(7144cc4cf54937e499750702d9c97401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298fee7fd51bd417e38a0866d93675de') in 0.047798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 2.prefab
+  artifactKey: Guid(22619208d8099f44c88db310591bfd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 2.prefab using Guid(22619208d8099f44c88db310591bfd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2492fb12916863894d4675f1bc1b54') in 0.038247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Switch.prefab
+  artifactKey: Guid(198d4b37a4658be4fa7753e5708d8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Switch.prefab using Guid(198d4b37a4658be4fa7753e5708d8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bf6cd0fc0e52cd7310288cdb8d9214') in 0.059934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Tea table.prefab
+  artifactKey: Guid(1d2935fb5bf1464468024fbbf8fb84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Tea table.prefab using Guid(1d2935fb5bf1464468024fbbf8fb84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71bdff55cf3b758ee34f9ce781f4f38') in 0.063712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab
+  artifactKey: Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Figure 1.prefab using Guid(27f51213011e77740b0ede7e6abe7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a601c4fe9815779d087bf2c1f7e9c330') in 0.045391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 3.prefab
+  artifactKey: Guid(63f5b2cd116bb1042862418ea880e307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Prefabs/Vase 3.prefab using Guid(63f5b2cd116bb1042862418ea880e307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882a46219403db524220735123123855') in 0.088760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750486 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Bamboo.FBX
+  artifactKey: Guid(1cfdc5c83cf893149b8c825404072f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Bamboo.FBX using Guid(1cfdc5c83cf893149b8c825404072f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ffe6b6342368223a883d3e6f7792ee') in 0.131976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Branch.FBX
+  artifactKey: Guid(56134ec9366330d41aa05dc4b4bf0646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Branch.FBX using Guid(56134ec9366330d41aa05dc4b4bf0646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692c25e3f469264e71609b92cc51971') in 0.083328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Plant 1.FBX
+  artifactKey: Guid(690313cb8dab2b845af44527ff6d4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Plant 1.FBX using Guid(690313cb8dab2b845af44527ff6d4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910bd2490494ba3b91a632665cc5322e') in 0.076710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Door 1.FBX
+  artifactKey: Guid(87ceb2799b01baa46ac4300aa5a6150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Door 1.FBX using Guid(87ceb2799b01baa46ac4300aa5a6150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b5860ff438dffd2857188ab5f62747') in 0.112795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Window.FBX
+  artifactKey: Guid(927472c576a55b341a0f71ecab07a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Window.FBX using Guid(927472c576a55b341a0f71ecab07a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9476bc0235679cef50d922f89d08671') in 0.058489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Wall lamp.FBX
+  artifactKey: Guid(ab59d7dded7dcb747a7b01b351eae00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Wall lamp.FBX using Guid(ab59d7dded7dcb747a7b01b351eae00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee71d004065f3f2e52e89405577b906') in 0.032983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Table 1.FBX
+  artifactKey: Guid(6bd05394694b6524ba024fbdfb2ba21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Table 1.FBX using Guid(6bd05394694b6524ba024fbdfb2ba21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed19649461264d410f4141e20db7809') in 0.055881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Tree.FBX
+  artifactKey: Guid(c89eaee41954fca4587c0e226de3aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Tree.FBX using Guid(c89eaee41954fca4587c0e226de3aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df111c2507d1b02c944c13eaee88e05') in 0.055290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Cabinet.FBX
+  artifactKey: Guid(cb8837e6d289ddd4eb483565e3d20838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Cabinet.FBX using Guid(cb8837e6d289ddd4eb483565e3d20838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d726747efda2dcf90a65df15aa5914') in 0.045962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Figure 2.FBX
+  artifactKey: Guid(209566e0a9b4d994da7d5b61eb7b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Figure 2.FBX using Guid(209566e0a9b4d994da7d5b61eb7b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47e5efd6310b7cb647b848f8cdbfe54') in 0.056727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Ceiling.FBX
+  artifactKey: Guid(29e0b75f03d797a46a0d05f5589f2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Ceiling.FBX using Guid(29e0b75f03d797a46a0d05f5589f2894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f9fad20498d2a20b9e0234b435a2e3') in 0.060912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Carpet.FBX
+  artifactKey: Guid(c716a2aa6c3a3f2429bced732390904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Carpet.FBX using Guid(c716a2aa6c3a3f2429bced732390904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3269cf6a2f4c35485700e5ca1b459b4') in 0.054937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Wall 2.FBX
+  artifactKey: Guid(31e2097cd2e612b4ca1463851bfb6884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Wall 2.FBX using Guid(31e2097cd2e612b4ca1463851bfb6884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a36dd83dd1c36448bc5941b020c6938') in 0.049955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Glasses.FBX
+  artifactKey: Guid(2556c7f8dbe45fe4d90cbf9776098863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Glasses.FBX using Guid(2556c7f8dbe45fe4d90cbf9776098863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d007a0ffddfd2c26d978618d616ac9') in 0.043603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Decorative circle.FBX
+  artifactKey: Guid(dfd5853e084bb7d43ad82a27f790d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Decorative circle.FBX using Guid(dfd5853e084bb7d43ad82a27f790d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98bc04c3db3b2caf0bb296ea095310a') in 0.057400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Glass.FBX
+  artifactKey: Guid(e4d6be352c1f4174bb60412c0b1d870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Glass.FBX using Guid(e4d6be352c1f4174bb60412c0b1d870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2dd6041b3a0cfcd66ecc007c0440e1') in 0.034402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Tablecloth.FBX
+  artifactKey: Guid(7a4fb9239d93dbf4c9f494217a204d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Tablecloth.FBX using Guid(7a4fb9239d93dbf4c9f494217a204d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218d48be37334f8b5e8ece2bb64cd793') in 0.073835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Wall 3.FBX
+  artifactKey: Guid(f2225974abd0f8f41997f344ef57615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Wall 3.FBX using Guid(f2225974abd0f8f41997f344ef57615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d4edc36fda10c15b3bfd6a84482b09') in 0.063499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Books 1.FBX
+  artifactKey: Guid(8c8f22ce1a0386f459c3f6fdddb4cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Books 1.FBX using Guid(8c8f22ce1a0386f459c3f6fdddb4cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a75459748c60d7dd9c762ef4ac1dce') in 0.109602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Pictures.FBX
+  artifactKey: Guid(6628db2a0fbd8414292ffabd8ecea5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Pictures.FBX using Guid(6628db2a0fbd8414292ffabd8ecea5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658ab7849405bc2a749b5d74e151d604') in 0.116207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Figure 3.FBX
+  artifactKey: Guid(c19ba24cfb7ddca4e817caa1a0dd7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Figure 3.FBX using Guid(c19ba24cfb7ddca4e817caa1a0dd7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a9e9dcf8aa5906ea1ad97efcab1daf') in 0.054806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Ceiling lamp.FBX
+  artifactKey: Guid(198005c0ba4500441bf334c6bff31a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Ceiling lamp.FBX using Guid(198005c0ba4500441bf334c6bff31a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296b3d440632d7095d70e28c849c43ce') in 0.084316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/中式家具/Chinese Room/Models/Floor.FBX
+  artifactKey: Guid(aaa12563643a21b4ca3fcc40e4e92de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/中式家具/Chinese Room/Models/Floor.FBX using Guid(aaa12563643a21b4ca3fcc40e4e92de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568dd78dc59bd99a692fe0882ce9dd4a') in 0.104508 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
