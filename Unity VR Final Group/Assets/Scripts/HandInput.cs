@@ -7,6 +7,13 @@ public class HandInput : MonoBehaviour
 {
     public TextMesh outText;
     public XRNode handRole = XRNode.LeftHand;
+    private Animator animator;
+
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -20,6 +27,7 @@ public class HandInput : MonoBehaviour
         if (trigger)
         {
             outText.text = "trigger";
+            animator.SetBool("isGrabbing", Input.GetKey(KeyCode.F));
         }
         else if (grip)
         {
