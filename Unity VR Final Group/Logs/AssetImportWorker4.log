@@ -22,7 +22,7 @@ AssetImportWorker4
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50927
+60321
 Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 172.36 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 4.37 ms.
+Refreshing native plugins compatible for Editor in 191.63 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 6.53 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Assets
@@ -70,82 +70,82 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56107
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002934 seconds.
+Registered in 0.002979 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 134.39 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
+Refreshing native plugins compatible for Editor in 123.18 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (594ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (180ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
+				InitializePlatformSupportModulesInManaged (64ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023303 seconds.
-Android Extension - Scanning For ADB Devices 569 ms
+Registered in 0.012457 seconds.
+Android Extension - Scanning For ADB Devices 561 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 118.60 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 118.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.630 seconds
+- Completed reload, in  1.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1631ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1726ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1408ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1514ms)
+			LoadAssemblies (264ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
+			SetupTypeCache (402ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (733ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (698ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
@@ -154,13 +154,13 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
-Unloading 6635 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (0.9 MB). Loaded Objects now: 7051.
-Memory consumption went from 417.0 MB to 416.1 MB.
-Total: 4.410390 ms (FindLiveObjects: 0.420498 ms CreateObjectMapping: 0.422758 ms MarkObjects: 3.118057 ms  DeleteObjects: 0.448456 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 6636 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.9 MB). Loaded Objects now: 7053.
+Memory consumption went from 417.1 MB to 416.2 MB.
+Total: 4.920934 ms (FindLiveObjects: 0.457187 ms CreateObjectMapping: 0.474687 ms MarkObjects: 3.529556 ms  DeleteObjects: 0.458843 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,645 +174,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 82449.821072 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png
-  artifactKey: Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png using Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc303904b0252cdd080ec0e6e057bec4') in 0.367384 seconds 
+  Time since last request: 226947.018359 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(058212b4e29c744d4bef585a3d2b9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(058212b4e29c744d4bef585a3d2b9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcd2b7eecba41a7f688d45d9f417e20') in 0.539321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png
-  artifactKey: Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png using Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b457c5adce41c06a6548bda906dd2e') in 0.013101 seconds 
+  Time since last request: 15.337513 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(058212b4e29c744d4bef585a3d2b9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(058212b4e29c744d4bef585a3d2b9185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898122d025de50279233b6ea29f3613d') in 0.009407 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png
-  artifactKey: Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png using Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '65bd2dc72f55e5a1caee12f8f1caf6b6') in 0.059301 seconds 
+  Time since last request: 95.080686 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day1.mat
+  artifactKey: Guid(9aa8ed67591432941bb76f12eb23ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day1.mat using Guid(9aa8ed67591432941bb76f12eb23ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ca2885ba1be7310d44cf90a09359df') in 0.012847 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled@2x.png
-  artifactKey: Guid(43ed4593c5ddda0439fcc1bdaf8309fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackCurvesButtonEnabled@2x.png using Guid(43ed4593c5ddda0439fcc1bdaf8309fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a566b59fc3ab2f1db027c2f0f6b4ae7e') in 0.009860 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat
+  artifactKey: Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat using Guid(baef7505b9e48404cb74585601f49ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f470e878dbde2b980ef263aedd479475') in 0.015155 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.323638 seconds.
-  path: Assets/Scripts/ButtonMenuController.cs
-  artifactKey: Guid(4b1607f206b46435482016e09ba51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ButtonMenuController.cs using Guid(4b1607f206b46435482016e09ba51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d44708dd0b2585be4e3a7b485fb9fa') in 0.188895 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004413 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.475 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1476ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1210ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (477ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (498ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.13 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 6406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7062.
-Memory consumption went from 460.5 MB to 459.7 MB.
-Total: 7.210259 ms (FindLiveObjects: 0.669947 ms CreateObjectMapping: 0.725417 ms MarkObjects: 4.919762 ms  DeleteObjects: 0.894165 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005390 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.390 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1391ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1130ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (503ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.64 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 6406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7066.
-Memory consumption went from 461.0 MB to 460.2 MB.
-Total: 5.296604 ms (FindLiveObjects: 0.873285 ms CreateObjectMapping: 0.577120 ms MarkObjects: 3.265226 ms  DeleteObjects: 0.580127 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night3.mat
+  artifactKey: Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night3.mat using Guid(135a7036ca1a07b4e9e162d80e6b6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59252119f574ee49a9cf250dbb8bae59') in 0.008727 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.405991 seconds.
-  path: Assets/Scripts/ButtonMenuController.cs
-  artifactKey: Guid(4b1607f206b46435482016e09ba51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ButtonMenuController.cs using Guid(4b1607f206b46435482016e09ba51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b1a4707335bf6dfab718d203923ada') in 0.010179 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004617 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1107ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (492ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.19 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 6406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7070.
-Memory consumption went from 461.3 MB to 460.4 MB.
-Total: 5.720461 ms (FindLiveObjects: 0.589656 ms CreateObjectMapping: 0.792402 ms MarkObjects: 3.709750 ms  DeleteObjects: 0.627824 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Unloading 71 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7070.
-Memory consumption went from 333.7 MB to 332.9 MB.
-Total: 4.543935 ms (FindLiveObjects: 0.457459 ms CreateObjectMapping: 0.479614 ms MarkObjects: 3.094601 ms  DeleteObjects: 0.511784 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 16.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Unloading 71 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7070.
-Memory consumption went from 333.7 MB to 332.9 MB.
-Total: 4.551010 ms (FindLiveObjects: 0.440039 ms CreateObjectMapping: 0.506074 ms MarkObjects: 3.096613 ms  DeleteObjects: 0.507820 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005493 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.69 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Unloading 6407 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7075.
-Memory consumption went from 461.6 MB to 460.8 MB.
-Total: 4.450584 ms (FindLiveObjects: 0.539927 ms CreateObjectMapping: 0.478097 ms MarkObjects: 2.959068 ms  DeleteObjects: 0.472893 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day5.mat
+  artifactKey: Guid(6225fa8890cf025489e57d3aa1d87260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day5.mat using Guid(6225fa8890cf025489e57d3aa1d87260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25670af1be87382458dec237116e2dad') in 0.009179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1220.909308 seconds.
-  path: Assets/Assets/BasicVRHands
-  artifactKey: Guid(08852d4c5e2774695a43c1959eb58ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands using Guid(08852d4c5e2774695a43c1959eb58ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f19294b70815f7e401865046733829') in 0.010943 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003687 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1257ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1021ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (467ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.77 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.33 ms.
-Unloading 6407 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7079.
-Memory consumption went from 461.9 MB to 461.1 MB.
-Total: 4.608091 ms (FindLiveObjects: 0.416663 ms CreateObjectMapping: 0.619946 ms MarkObjects: 3.100697 ms  DeleteObjects: 0.470204 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat
+  artifactKey: Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset2.mat using Guid(528363c5c1cf6a7458140c6851c77b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd98c1a67d53cfa01fdacbe91e845ad8') in 0.009231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.191831 seconds.
-  path: Assets/Assets/WeddingRoom/alcove.obj
-  artifactKey: Guid(480aacca2bfa7c9499aa00ef4904fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/WeddingRoom/alcove.obj using Guid(480aacca2bfa7c9499aa00ef4904fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '533e7d1d6143190025ed5bbd6d94a62c') in 2.220921 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night1.mat
+  artifactKey: Guid(bbe9494f815f3c340956427c884b72a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night1.mat using Guid(bbe9494f815f3c340956427c884b72a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff634a190f355c1065b4f37b694a7e91') in 0.008796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat
+  artifactKey: Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset3.mat using Guid(7ed994c1997814049b44c36a823bba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30fda222044689953fcfa921043018f') in 0.008340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning4.mat
+  artifactKey: Guid(c7a8e24b01cf73e4bad6eb3cb7d40acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning4.mat using Guid(c7a8e24b01cf73e4bad6eb3cb7d40acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40408e2907fb74e37ed2e21205d0f66') in 0.008005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset1.mat
+  artifactKey: Guid(2441c79940171dc43b33badf9fe97828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset1.mat using Guid(2441c79940171dc43b33badf9fe97828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b9e6c588ee938b7aca85f6f957563c') in 0.009037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day6.mat
+  artifactKey: Guid(bbbcd551076325545ba102ba8c308520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day6.mat using Guid(bbbcd551076325545ba102ba8c308520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5087cfb03a689f51b5e70d477a9a48fe') in 0.009243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night4.mat
+  artifactKey: Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night4.mat using Guid(ed1387202b1349540a5d6464f0f27488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124a3df775345fe8c7f1d2e7b1024128') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat
+  artifactKey: Guid(20f6d22d93779de4ea6f62f8ab305593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat using Guid(20f6d22d93779de4ea6f62f8ab305593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7a0b1dac72eff4cb383ff4f282a7e7') in 0.007796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day4.mat
+  artifactKey: Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day4.mat using Guid(5c57bb9da366e944a8f4ae9be4f413ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3be12bd470f1b78021110584cb4025') in 0.007673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning1.mat
+  artifactKey: Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning1.mat using Guid(8fc56946a1b593c4d8e3e0e94483338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e3336404a37c44d7af43667490ba97') in 0.009605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night2.mat
+  artifactKey: Guid(52fcefd712182d743a781fde12426775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Night2.mat using Guid(52fcefd712182d743a781fde12426775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2cb5c8d6e4d403a8c1a19842503cdc') in 0.008465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning3.mat
+  artifactKey: Guid(022e71752654d3f4fa0cbe71b312ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning3.mat using Guid(022e71752654d3f4fa0cbe71b312ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62e793b89796ca56a770033205ecb91') in 0.008673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day7.mat
+  artifactKey: Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day7.mat using Guid(ddbcbb3899687ea469ed4a5fce1532df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a033fed178629b9ffdce321085919d') in 0.009720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day3.mat
+  artifactKey: Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Day3.mat using Guid(56113b3b655ab7349bab4d7d405c258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2284c5d0dc43d55fc66543a3a93b9a95') in 0.007926 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000086 seconds.
-  path: Assets/Assets/WeddingRoom
-  artifactKey: Guid(633e093486e091e4d90cad45b9864e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/WeddingRoom using Guid(633e093486e091e4d90cad45b9864e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2668f57b05c223cd18bf48966776b649') in 0.001028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/BasicVRHands/male_high_r.fbx
-  artifactKey: Guid(23d2be3e4ed0956429c95c548ded4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/male_high_r.fbx using Guid(23d2be3e4ed0956429c95c548ded4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa931a292072ebb7429258aed888e21') in 0.298524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.661251 seconds.
-  path: Assets/Assets/BasicVRHands/Animation
-  artifactKey: Guid(c8d16e92ab3058741bd766db78e81c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Animation using Guid(c8d16e92ab3058741bd766db78e81c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac95921a13080cfa7796f304210275b5') in 0.001530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.442542 seconds.
-  path: Assets/Assets/BasicVRHands/Materials
-  artifactKey: Guid(2a83b128cffb8f343a4ce508cc34a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Materials using Guid(2a83b128cffb8f343a4ce508cc34a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14894a49bdae7344684bf74c7f6b754') in 0.000546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.087250 seconds.
-  path: Assets/Assets/BasicVRHands/Materials/female_high.mat
-  artifactKey: Guid(5ceb4231ef986824498bd11724ffa6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Materials/female_high.mat using Guid(5ceb4231ef986824498bd11724ffa6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '3a7735f61c3e746743b29d9527837b2f') in 0.357549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.136105 seconds.
-  path: Assets/Assets/BasicVRHands/Textures
-  artifactKey: Guid(25000b112fa9e4443b15e1139d62e752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures using Guid(25000b112fa9e4443b15e1139d62e752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b5e6141da7684e68fdbeeabf95b69b') in 0.002187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.979760 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high
-  artifactKey: Guid(9e5c087b544ec2f4892aaf2e2f77c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high using Guid(9e5c087b544ec2f4892aaf2e2f77c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2380fa1d7678916176c11097fea7810a') in 0.000782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.147491 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_albedo.tga
-  artifactKey: Guid(f47240785d3ecae42a5f9568bebaa5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_albedo.tga using Guid(f47240785d3ecae42a5f9568bebaa5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '3841e92ed35c7b3610c781ecd21e4a2e') in 0.434391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.870520 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs
-  artifactKey: Guid(82756fa0a5ae9f7468e69522cc37bb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs using Guid(82756fa0a5ae9f7468e69522cc37bb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7377fd7a45b94e744c443d9aaa22e4f7') in 0.000875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.405189 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands
-  artifactKey: Guid(68e143d1c9b61c1419e70ed393cb0dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands using Guid(68e143d1c9b61c1419e70ed393cb0dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70dd5ee43b1ec8202cff985dfe028d1') in 0.000646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.552718 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Left
-  artifactKey: Guid(be6836cd0023bdf4e834bf2e5646c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Left using Guid(be6836cd0023bdf4e834bf2e5646c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365ecbd30869d7faf0f2a34c2288a151') in 0.000718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.780313 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female
-  artifactKey: Guid(3e073dfb535a185408058ae2db23bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female using Guid(3e073dfb535a185408058ae2db23bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1573b0c7f03f77ca4406ee794e55ff65') in 0.001203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.157597 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_high_l.prefab
-  artifactKey: Guid(78a2aab07990d444fa36b4a093848d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_high_l.prefab using Guid(78a2aab07990d444fa36b4a093848d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '48b0b815a16e100b7e8e7dda0ef8f43b') in 0.248635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.557105 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes
-  artifactKey: Guid(07e438cb1c703e24f8f788ee9c2a1f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes using Guid(07e438cb1c703e24f8f788ee9c2a1f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959dc3f9144a1e2b6f1756544f2a4ed6') in 0.000862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.111781 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/female_hand_high_l.FBX
-  artifactKey: Guid(cbb748cb9a237cd4baf339b5ab4ebe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/female_hand_high_l.FBX using Guid(cbb748cb9a237cd4baf339b5ab4ebe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6aef4189a9a688913d2fe63fb3d5e') in 0.294858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/male_hand_low_l.FBX
-  artifactKey: Guid(1bde7dafb4d314e40ae6529e47bcf938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/male_hand_low_l.FBX using Guid(1bde7dafb4d314e40ae6529e47bcf938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cc80e698df7e092007ece089d000a3') in 0.025849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/female_hand_lowest_r.FBX
-  artifactKey: Guid(ae615f4d41e086e4a9bf9c79464c7f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/female_hand_lowest_r.FBX using Guid(ae615f4d41e086e4a9bf9c79464c7f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e11650935cc3c2c588eaa35c60cf2d2') in 0.027999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/female_hand_low_r.FBX
-  artifactKey: Guid(b925000f3ec99c743925d5dd1a30ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/female_hand_low_r.FBX using Guid(b925000f3ec99c743925d5dd1a30ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b9088577699a83edeb782efc0dd0d') in 0.033093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/male_hand_high_r.FBX
-  artifactKey: Guid(1ed52b655b268ba47a59990cd96efc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/male_hand_high_r.FBX using Guid(1ed52b655b268ba47a59990cd96efc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8125a4b74395eb9bff107af509903351') in 0.022638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.709151 seconds.
-  path: Assets/Assets/BasicVRHands/Materials/female_high.mat
-  artifactKey: Guid(5ceb4231ef986824498bd11724ffa6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Materials/female_high.mat using Guid(5ceb4231ef986824498bd11724ffa6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b9288db384a7b3e7303091004a3df7e3') in 0.452870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.775562 seconds.
-  path: Assets/Assets/BasicVRHands/male_hand_high_l.fbx
-  artifactKey: Guid(8faae2143ce420f4187503f4ce48c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/male_hand_high_l.fbx using Guid(8faae2143ce420f4187503f4ce48c7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3e7a917a44912469a0ae2e6b66cee1') in 0.104615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.419276 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_high_l.prefab
-  artifactKey: Guid(78a2aab07990d444fa36b4a093848d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_high_l.prefab using Guid(78a2aab07990d444fa36b4a093848d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a4772ada6f7887a021b1154f7e0c8b4a') in 0.090901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.099686 seconds.
-  path: Assets/Assets/BasicVRHands/Scripts/HandController.cs
-  artifactKey: Guid(f452251c0f44f7049ad2579d3d1711d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Scripts/HandController.cs using Guid(f452251c0f44f7049ad2579d3d1711d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a443d0b6e70cb5beaa5eaa4d7d7a7bd9') in 0.001263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 310.904955 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Right
-  artifactKey: Guid(d0b5d71d6397bb24983d84ddd0a83c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Right using Guid(d0b5d71d6397bb24983d84ddd0a83c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00190f8b70f2851b503024a1ca6d156a') in 0.001305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.063859 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Right/Female
-  artifactKey: Guid(b7cbed4146cff554ebd151ca20836e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Right/Female using Guid(b7cbed4146cff554ebd151ca20836e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a4c016de8665f74f8188e597c79b9') in 0.000770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.102831 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Right/Female/female_hand_high_r.prefab
-  artifactKey: Guid(972a2ab01094d5349a53d5458911eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Right/Female/female_hand_high_r.prefab using Guid(972a2ab01094d5349a53d5458911eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '7dab129f80ae4e35d2bc5e630c2f00da') in 0.065276 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 18.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (0.8 MB). Loaded Objects now: 7200.
-Memory consumption went from 384.2 MB to 383.4 MB.
-Total: 5.245504 ms (FindLiveObjects: 0.454436 ms CreateObjectMapping: 0.453393 ms MarkObjects: 3.868588 ms  DeleteObjects: 0.468552 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 472.958220 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high/Materials
-  artifactKey: Guid(f028fd61dba32402db6538c61a1d9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high/Materials using Guid(f028fd61dba32402db6538c61a1d9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b0b5c053de0010f8a84551c57a2137') in 0.012476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000893 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high/Materials/female_hand_high_normal.mat
-  artifactKey: Guid(70549163e54664e269a8bc945b1c6eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high/Materials/female_hand_high_normal.mat using Guid(70549163e54664e269a8bc945b1c6eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'f17257619e1a1f26e5f7a98ab5df38a2') in 0.268113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.821108 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/male_high
-  artifactKey: Guid(50e654bf33e0c3b40af75c7ceb392e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/male_high using Guid(50e654bf33e0c3b40af75c7ceb392e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbfb9b4ec25b5865a351dc49422a729') in 0.000796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.670431 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse
-  artifactKey: Guid(dbf98c71c3659ba49bfb69e5398a92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse using Guid(dbf98c71c3659ba49bfb69e5398a92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5be6cb0e7ed480b0ec1d8c81410d4da') in 0.001183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.110086 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse/female_hand_low_diffuse_512.tga
-  artifactKey: Guid(d8f8adc322751824696252e41d648402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse/female_hand_low_diffuse_512.tga using Guid(d8f8adc322751824696252e41d648402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '4b37c223437a03c2a3c0877da57cbe02') in 0.185688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_512.tga
-  artifactKey: Guid(50c4d94f1bd69ac43b81f05b8b504a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_512.tga using Guid(50c4d94f1bd69ac43b81f05b8b504a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'f0d2430ef472b8ffe366704873d48fb9') in 0.018165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse/female_hand_low_diffuse_2048.tga
-  artifactKey: Guid(bd1c615e169d8e549a92ff6119500c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse/female_hand_low_diffuse_2048.tga using Guid(bd1c615e169d8e549a92ff6119500c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c6eafbcf06bd17b8f4f671acb3da0bf6') in 0.040613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_2048.tga
-  artifactKey: Guid(7cd3ef308b10e7349b3e5508b255d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_2048.tga using Guid(7cd3ef308b10e7349b3e5508b255d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'f5accf3628068bd281639baa4e309fcf') in 0.043665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_1024.tga
-  artifactKey: Guid(be6cc35c0ea2cf543b6db2c9f90548e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/diffuse/male_hand_low_diffuse_1024.tga using Guid(be6cc35c0ea2cf543b6db2c9f90548e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '5ee440e0d2ca8d0ee2e709edbe829be3') in 0.020001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.503056 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/male_high/male_hand_high_albedo.tga
-  artifactKey: Guid(edbc81dbdc9da19479436675d8ffaae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/male_high/male_hand_high_albedo.tga using Guid(edbc81dbdc9da19479436675d8ffaae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '9ee46322f786da980328a77d6a7d7445') in 0.055409 seconds 
+  path: Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning2.mat
+  artifactKey: Guid(5464c15ff9c6ca04cb5790c1773e76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Skybox/Customizable Skybox/Stylized Sky/Materials/Morning2.mat using Guid(5464c15ff9c6ca04cb5790c1773e76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea9898d7d4d4214939ca22f90ca670a') in 0.007776 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

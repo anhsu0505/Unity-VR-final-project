@@ -22,7 +22,7 @@ AssetImportWorker5
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50927
+60321
 Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/angelinahsu/Unity-VR-final-project/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 153.78 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 3.96 ms.
+Refreshing native plugins compatible for Editor in 168.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 6.69 ms.
 Initialize engine version: 2021.2.19f1 (602ecdbb2fb0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Assets
@@ -70,82 +70,82 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56674
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56078
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001191 seconds.
+Registered in 0.003371 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 136.75 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Refreshing native plugins compatible for Editor in 126.35 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
+- Completed reload, in  0.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (720ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (761ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (556ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (137ms)
+				RefreshPlugins (127ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005377 seconds.
-Android Extension - Scanning For ADB Devices 552 ms
+Registered in 0.005219 seconds.
+Android Extension - Scanning For ADB Devices 554 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/angelinahsu/Unity-VR-final-project/Unity VR Final Group/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 120.23 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 117.27 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.43 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.447 seconds
+- Completed reload, in  1.569 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1448ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1570ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1244ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1357ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (671ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (684ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
@@ -155,12 +155,12 @@ Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Unloading 6636 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (0.9 MB). Loaded Objects now: 7052.
-Memory consumption went from 417.1 MB to 416.2 MB.
-Total: 4.679301 ms (FindLiveObjects: 0.481339 ms CreateObjectMapping: 0.486318 ms MarkObjects: 3.211935 ms  DeleteObjects: 0.498804 ms)
+Unloading 81 unused Assets / (0.9 MB). Loaded Objects now: 7056.
+Memory consumption went from 417.8 MB to 416.9 MB.
+Total: 5.181691 ms (FindLiveObjects: 0.554772 ms CreateObjectMapping: 0.569609 ms MarkObjects: 3.445947 ms  DeleteObjects: 0.610815 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,60 +172,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 83714.191720 seconds.
-  path: Assets/Assets/BasicVRHands/Materials/male_high.mat
-  artifactKey: Guid(8f01cc98f0ca64c4fb1e17d53c10bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Materials/male_high.mat using Guid(8f01cc98f0ca64c4fb1e17d53c10bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b22cc9a1e7ea28a7e1523c1f849408fa') in 0.542983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.098353 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_normal.tga
-  artifactKey: Guid(d924211cd87522940aca9126ffaa9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_normal.tga using Guid(d924211cd87522940aca9126ffaa9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e1749b16cefcc2a57f279eed50eb3986') in 0.428946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_subdermal.tga
-  artifactKey: Guid(4b09749d541c86b4e8e7828735703fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Textures/female_high/female_hand_high_subdermal.tga using Guid(4b09749d541c86b4e8e7828735703fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ffeb9123e9333fc3624e37baef97816c') in 0.026181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.775279 seconds.
-  path: Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_lowest_l.prefab
-  artifactKey: Guid(3d2cb06f98a40e043a878ee3be48d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Prefabs/Hands/Left/Female/female_hand_lowest_l.prefab using Guid(3d2cb06f98a40e043a878ee3be48d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'cb1a8b8d34b59c19ed98776dbeaf5603') in 0.230280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.694209 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/female_hand_low_l.FBX
-  artifactKey: Guid(3b69d165d1a20474ca07043b2b4fea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/female_hand_low_l.FBX using Guid(3b69d165d1a20474ca07043b2b4fea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee37b5578e9381f2eb364c5598b4a5') in 0.266176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/male_hand_high_l.FBX
-  artifactKey: Guid(1a19624296653b24c96a903ffbfce665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/male_hand_high_l.FBX using Guid(1a19624296653b24c96a903ffbfce665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d3e70d0d3752b6b7a8cc7a1e0fe0fa') in 0.105979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Assets/BasicVRHands/Meshes/female_hand_lowest_l.FBX
-  artifactKey: Guid(9398597f6663dda4ca95887cf53d76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Meshes/female_hand_lowest_l.FBX using Guid(9398597f6663dda4ca95887cf53d76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c1c2a7ad6eded3cbd7b43d87d66f34') in 0.033570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.732787 seconds.
-  path: Assets/Assets/BasicVRHands/Materials/male_low.mat
-  artifactKey: Guid(89ebfca71d22dee4fa40dd513f1e3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/BasicVRHands/Materials/male_low.mat using Guid(89ebfca71d22dee4fa40dd513f1e3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de9214d3ab10ddba87adee181543512') in 0.019129 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
